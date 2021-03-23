@@ -94,5 +94,31 @@ p {
     padding-top: 60px;
     border-bottom: solid 1px #ddd;
     padding-bottom: 20px;
+    margin-bottom: 15px;
 }
 
+.container-1 img {
+    max-height: 15px;
+}
+
+.container-1 button {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #eee;
+    padding: 5px 7px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+button.icon-1 {
+    padding: 6px;
+} 
+
+button.icon-2 {
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+button.icon-2 img {
+    max-height: 25px;
+}
