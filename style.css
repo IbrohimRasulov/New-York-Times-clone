@@ -26,7 +26,6 @@ p {
     display: inline;
     padding: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 
 .leftButton {
@@ -77,6 +76,8 @@ p {
     cursor: pointer;
 }
 
+/* Main article page styling */
+
 .container-1 {
     margin: 0 auto;
     width: 600px;
@@ -123,6 +124,11 @@ button.icon-2 img {
     max-height: 25px;
 }
 
+.container-1 button:hover {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
 .container-2 img {
     width: 945px;
     margin-top: 20px;
@@ -134,4 +140,16 @@ button.icon-2 img {
     font-size: 16px;
     font-weight: 520;
     width: 730px;
+}
+
+.advertisement {
+    background-color: #f8f8f8;
+}
+
+.advertisement p {
+    text-align: center;
+    font-size: 10px;
+    color: #ccc;
+    padding-top: 10px;
+    padding-bottom: 200px;
 }
