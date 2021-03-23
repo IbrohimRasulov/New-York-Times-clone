@@ -77,3 +77,21 @@ p {
     cursor: pointer;
 }
 
+.container-1 {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.container-2 {
+    
+}
+
+.container-1 h1 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 60px;
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 20px;
+}
+
