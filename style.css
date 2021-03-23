@@ -1,0 +1,79 @@
+/* Pre style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: inherit;
+    background-color: white;
+}
+
+a {
+    text-decoration: none; 
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Navbar style */
+
+#navbar {
+    border-bottom: solid 1px #ddd;
+    display: inline;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.leftButton {
+    padding: 8px 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.leftButton:hover {
+    background-color: #f5f8fd;
+    cursor: pointer;
+}
+
+#space {
+    font-weight: 900;
+    color: black;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+#space:hover {
+    text-decoration: underline;
+}
+
+#navbar a img {
+    height: 45px;
+    position: relative;
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 310px;
+    padding-right: 325px;
+}
+
+.rightButton {
+    color: #fff;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 9px;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+
+.rightButton:hover {
+    background-color: #326891;
+    cursor: pointer;
+}
+
