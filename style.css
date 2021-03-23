@@ -153,3 +153,53 @@ button.icon-2 img {
     padding-top: 10px;
     padding-bottom: 200px;
 }
+
+#alignLeft {
+    float: left;
+    width: 85%;
+}
+
+#alignRight {
+    float: right;
+    width: 15%;
+}
+
+.clr {
+    clear: both;
+}
+
+button.specialBtn {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 7px 12px;
+    background-color: white;
+    margin: 12px 2px;
+}
+
+button.specialBtn:hover {
+    background-color: black;
+    color: #fff;
+    transition-duration: 0.4s, 0.4s;
+    transition-timing-function: ease, ease;
+}
+
+#alignLeft p {
+    font-style: italic;
+    font-size: 17px;
+}
+
+#signUpText {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.container-1 p {
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
