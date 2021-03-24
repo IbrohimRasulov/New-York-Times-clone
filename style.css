@@ -106,7 +106,7 @@ button {
     max-height: 15px;
 }
 
-.container-1 button {
+#buttons button {
     border: 1px solid #fff;
     border-radius: 50%;
     background-color: #eee;
@@ -128,7 +128,7 @@ button.icon-2 img {
     max-height: 25px;
 }
 
-.container-1 button:hover {
+#buttons button:hover {
     border: 1px solid #ccc;
     background-color: #fff;
 }
@@ -138,16 +138,23 @@ button.icon-2 img {
     margin-top: 20px;
 }
 
-.container-2 p {
+.underText {
     font-family: inherit;
     color: #666;
     font-size: 16px;
     font-weight: 520;
-    width: 730px;
+    width: 77%;
+    padding-bottom: 40px;
+}
+
+.lighterText {
+    font-size: 14px;
+    color: #999;
 }
 
 .advertisement {
     background-color: #f8f8f8;
+    margin: 40px 0;
 }
 
 .advertisement p {
@@ -205,4 +212,13 @@ button.specialBtn:hover {
     color: #333;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+#image-1 {
+    min-height: 400px;
+    margin-top: 40px;
+}
+
+#noBreak {
+    width: 100%;
 }
