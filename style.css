@@ -165,6 +165,22 @@ button.icon-2 img {
     padding-bottom: 200px;
 }
 
+#box {
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+}
+
+.container-1 a {
+    color: black;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.container-1 h4, h5 {
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+
 #alignLeft {
     float: left;
     width: 85%;
@@ -243,4 +259,23 @@ button.specialBtn:hover {
 
 .buttons {
     display: inline;
+}
+
+#leftMargin {
+    margin-left: 45px;
+}
+
+#conatainer {
+    display: flex;
+    
+}
+
+#container img {
+    max-width: 220px;
+    
+
+}
+
+p #inflationText {
+    width: 100px;
 }
