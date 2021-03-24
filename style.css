@@ -267,15 +267,21 @@ button.specialBtn:hover {
 
 #conatainer {
     display: flex;
-    
 }
 
 #container img {
-    max-width: 220px;
-    
-
+    max-width: 233px;
+    padding: 10px;
 }
 
-p #inflationText {
-    width: 100px;
+.inflationText {
+    font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      min-width: 100%;
+      margin: 20px auto;
+}
+
+.flexText {
+    width: 232px;
+    display: inline-block;
 }
