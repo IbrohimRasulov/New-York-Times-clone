@@ -106,7 +106,7 @@ button {
     max-height: 15px;
 }
 
-#buttons button {
+.buttons button {
     border: 1px solid #fff;
     border-radius: 50%;
     background-color: #eee;
@@ -115,11 +115,11 @@ button {
     margin-right: 7px;
 }
 
-button.icon-1 {
+.buttons .icon-1 {
     padding: 6px;
 } 
 
-button.icon-2 {
+.buttons .icon-2 {
     background-color: #fff;
     vertical-align: middle;
 }
@@ -128,7 +128,7 @@ button.icon-2 img {
     max-height: 25px;
 }
 
-#buttons button:hover {
+.buttons button:hover {
     border: 1px solid #ccc;
     background-color: #fff;
 }
@@ -221,4 +221,26 @@ button.specialBtn:hover {
 
 #noBreak {
     width: 100%;
+}
+
+#sans {
+    font-family: inherit;
+    font-weight: 500;
+    color: #666;
+    margin: 25px 0;
+}
+
+#oldLink a {
+    text-decoration: underline;
+    color: #666;
+}
+
+#lastButton {
+    font-size: 13px;
+    padding: 9px 95px;
+    margin-right: px;
+}
+
+.buttons {
+    display: inline;
 }
