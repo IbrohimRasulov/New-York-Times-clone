@@ -11,12 +11,13 @@ html, body {
     background-color: white;
 }
 
-a {
-    text-decoration: none; 
-}
+a { text-decoration: none; }
 
-p {
-    margin: 10px 0;
+p { margin: 10px 0; }
+
+button {
+    transition-duration: 0.4s, 0.4s;
+    transition-timing-function: ease, ease;
 }
 
 /* Navbar style */
@@ -24,8 +25,11 @@ p {
 #navbar {
     border-bottom: solid 1px #ddd;
     display: inline;
-    padding: 12px;
+    padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.09), 0 1px 10px 0 rgba(0,0,0,0.1);
 }
 
 .leftButton {
@@ -56,8 +60,8 @@ p {
     position: relative;
     vertical-align: middle;
     align-items: center;
-    padding-left: 300px;
-    padding-right: 324px;
+    margin-left: 300px;
+    margin-right: 333px;
 }
 
 .rightButton {
@@ -68,7 +72,7 @@ p {
     font-size: 11px;
     padding: 9px;
     border-radius: 3px;
-    margin-right: 3px;
+    margin-right: 10px;
 }
 
 .rightButton:hover {
@@ -92,7 +96,7 @@ p {
     font-style: italic;
     font-weight: 700;
     font-size: 40px;
-    padding-top: 60px;
+    padding-top: 110px;
     border-bottom: solid 1px #ddd;
     padding-bottom: 20px;
     margin-bottom: 15px;
@@ -182,8 +186,7 @@ button.specialBtn {
 button.specialBtn:hover {
     background-color: black;
     color: #fff;
-    transition-duration: 0.4s, 0.4s;
-    transition-timing-function: ease, ease;
+    
 }
 
 #alignLeft p {
