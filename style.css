@@ -234,7 +234,7 @@ button.specialBtn:hover {
     margin-top: 40px;
 }
 
-#noBreak {
+#noBreakText {
     width: 100%;
 }
 
@@ -271,6 +271,16 @@ button.specialBtn:hover {
 #container img {
     max-width: 233px;
     padding: 10px;
+}
+
+#horizontalLine {
+    width: 60px;
+}
+
+#youtubeVideo {
+    width: 600px;
+    height: 320px;
+    border: none;
 }
 
 .inflationText {
