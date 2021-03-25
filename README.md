@@ -1,5 +1,3 @@
-README.md
-
 # Clone of New York Times article page
 
 This clone version of the page may differ from original page since the original one is updated always
