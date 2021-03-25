@@ -75,6 +75,11 @@ button.icon-2 img {
   padding: 10px;
 }
 
+#NewYorkTimes img {
+  height: 40px;
+  float: left;
+}
+
 #navbar a img {
   height: 45px;
   position: relative;
@@ -248,6 +253,14 @@ button.specialBtn:hover {
   margin: 25px 0;
 }
 
+.summaryColumn a {
+  color: #222;
+}
+
+.summaryColumn a:hover {
+  text-decoration: underline;
+}
+
 #oldLink a {
   text-decoration: underline;
   color: #666;
@@ -314,4 +327,65 @@ button.specialBtn:hover {
 #thinText {
   font-weight: lighter;
   padding-right: 317px;
+}
+
+#summaryContainer {
+  padding: 0 40px 40px 40px;
+}
+
+#homePageText {
+  float: right;
+  position: relative;
+  padding-top: 18px;
+  font-size: 12px
+}
+
+#homePageText a {
+  color: #567b95;
+}
+
+#dualLine {
+  border-top: 4px double #ddd;
+}
+
+.summaryColumn {
+  float: left;
+  width: 195px;
+}
+
+.summaryColumn li {
+  list-style-type: none;
+}
+
+#columnText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#policy {
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+#policy h6 {
+  display: inline;
+  font-size: 11px;
+  font-weight: lighter;
+  padding-right: 12.5px;
+}
+
+#policy a {
+  color: #222;
+}
+
+#policy a:hover {
+  text-decoration: underline;
+}
+
+ul li:first-child {
+  font-weight: bolder;
 }
