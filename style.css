@@ -58,12 +58,12 @@ button {
 }
 
 .container-1 img {
-    max-height: 15px;
+  max-height: 15px;
 }
 
 .container-2 img {
-    width: 945px;
-    margin-top: 20px;
+  width: 945px;
+  margin-top: 20px;
 }
 
 button.icon-2 img {
@@ -211,7 +211,7 @@ button.specialBtn {
 
 button.specialBtn:hover {
   background-color: black;
-  color: #fff;    
+  color: #fff;
 }
 
 .container-1 p {
@@ -269,8 +269,6 @@ button.specialBtn:hover {
 #conatainer {
   display: flex;
 }
-
-
 
 #horizontalLine {
   width: 60px;
