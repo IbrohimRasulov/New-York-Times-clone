@@ -1,0 +1,511 @@
+/* Pre style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  font-family: inherit;
+  background-color: white;
+}
+
+a { text-decoration: none; }
+
+p { margin: 10px 0; }
+
+.clr { clear: both; }
+
+button {
+  transition-duration: 0.4s, 0.4s;
+  transition-timing-function: ease, ease;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Fixed navbar styling */
+
+#navbar {
+  border-bottom: solid 1px #ddd;
+  display: inline;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.09), 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.leftButton {
+  padding: 8px 10px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.leftButton:hover {
+  background-color: #f5f8fd;
+  cursor: pointer;
+}
+
+#space {
+  font-weight: 900;
+  color: black;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+#space:hover {
+  text-decoration: underline;
+}
+
+.container-1 img {
+  max-height: 15px;
+}
+
+.container-2 img {
+  width: 945px;
+  margin-top: 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+button.icon-2 img {
+  max-height: 25px;
+}
+
+#container img {
+  max-width: 233px;
+  padding: 10px;
+}
+
+#NewYorkTimes img {
+  height: 40px;
+  float: left;
+}
+
+#editors-pic img {
+  float: left;
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#navbar a img {
+  height: 45px;
+  position: relative;
+  vertical-align: middle;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 333px;
+}
+
+.rightButton {
+  color: #fff;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 9px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.rightButton:hover {
+  background-color: #326891;
+  cursor: pointer;
+}
+
+/* Main article and section pages styling */
+
+.container-1 {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.container-2 {
+  margin: 0 auto;
+  width: 945px;
+}
+
+.container-1 h1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 110px;
+  border-bottom: solid 1px #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.buttons button {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background-color: #eee;
+  padding: 5px 7px;
+  cursor: pointer;
+  margin-right: 7px;
+}
+
+.buttons .icon-1 {
+  padding: 6px;
+}
+
+.buttons .icon-2 {
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.buttons button:hover {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.underText {
+  font-family: inherit;
+  color: #666;
+  font-size: 16px;
+  font-weight: 520;
+  width: 77%;
+  padding-bottom: 40px;
+}
+
+.lighterText {
+  font-size: 14px;
+  color: #999;
+}
+
+#box {
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+}
+
+.container-1 a {
+  text-decoration: underline;
+  font-family: sans-serif;
+  color: #326891;
+}
+
+.summaryColumn a {
+  color: #222;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.container-1 a:hover {
+  text-decoration: none;
+}
+
+.container-1 h4 h5 {
+  font-family: sans-serif;
+  padding-top: 5px;
+}
+
+#text-center {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin: 30px 0;
+}
+
+#editors-part {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+#editors-pic {
+  width: 220px;
+  border-top: 1px solid #ddd;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.summaryColumn a:hover {
+  text-decoration: underline;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+#editors-pic a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color: #333;
+}
+
+#oldLink a {
+  text-decoration: underline;
+  color: #666;
+}
+
+#homePageText a {
+  color: #567b95;
+}
+
+#policy a {
+  color: #222;
+}
+
+#grid-container a {
+  color: #333;
+}
+
+#editors-pic a:hover {
+  text-decoration: underline;
+}
+
+#alignLeft {
+  float: left;
+  width: 85%;
+}
+
+#alignRight {
+  float: right;
+  width: 15%;
+}
+
+button.specialBtn {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 7px 12px;
+  background-color: white;
+  margin: 12px 2px;
+}
+
+button.specialBtn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.container-1 p {
+  color: #333;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+
+#alignLeft p {
+  font-style: italic;
+  font-size: 17px;
+}
+
+#signUpText {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+#image-1 {
+  min-height: 400px;
+  margin-top: 40px;
+}
+
+.noBreakText {
+  width: 100%;
+}
+
+#sans {
+  font-family: inherit;
+  font-weight: 500;
+  color: #666;
+  margin: 25px 0;
+}
+
+#lastButton {
+  font-size: 13px;
+  padding: 9px 95px;
+}
+
+.buttons {
+  display: inline;
+}
+
+#leftMargin {
+  margin-left: 30px;
+}
+
+#conatainer {
+  display: flex;
+}
+
+#horizontalLine {
+  width: 60px;
+}
+
+#youtubeVideo {
+  width: 600px;
+  height: 320px;
+  border: none;
+}
+
+.inflationText {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 100%;
+  margin: 20px auto;
+}
+
+.flexText {
+  width: 232px;
+  display: inline-block;
+}
+
+/* Fixed footer styling */
+
+#fixedFooter {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #333;
+  background-color: white;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: black;
+  padding: 20px 0;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.19), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+  text-align: right;
+}
+
+#fixedFooter h4 {
+  display: inline;
+  padding-right: 60px;
+}
+
+#thinText {
+  font-weight: lighter;
+  padding-right: 317px;
+}
+
+/* Summary Menu styling */
+
+#summaryContainer {
+  padding: 0 40px 40px 40px;
+}
+
+#homePageText {
+  float: right;
+  position: relative;
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+#dualLine {
+  border-top: 4px double #ddd;
+}
+
+.summaryColumn {
+  float: left;
+  width: 195px;
+}
+
+.summaryColumn li {
+  list-style-type: none;
+}
+
+#columnText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#policy {
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+#policy h6 {
+  display: inline;
+  font-size: 11px;
+  font-weight: lighter;
+  padding-right: 12.5px;
+}
+
+#policy a:hover {
+  text-decoration: underline;
+}
+
+ul li:first-child {
+  font-weight: bolder;
+}
+
+#no-bold {
+  font-weight: normal;
+}
+
+#column-line {
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
+  font-size: 11px;
+}
+
+.menu-icon {
+  width: 15px;
+}
+
+#split-line {
+  margin: 5px 0;
+}
+
+/* Grid conatiner styling */
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(32, 1fr);
+  margin: 60px 0;
+}
+
+.big-grid-item {
+  grid-column-start: 2;
+  grid-column-end: 23;
+  border-top: 1px solid #222;
+  padding-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.small-grid-iteam {
+  grid-column-start: 24;
+  grid-column-end: 32;
+  border-top: 1px solid #222;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.card {
+  display: inline-block;
+  width: 32%;
+  padding-right: 7px;
+}
+
+#line-margin {
+  padding-bottom: 40px;
+}
+
+.line-with-margin {
+  margin: 40px 0 20px 0;
+}
+
+.text-with-margin {
+  margin-bottom: 15px;
+}
