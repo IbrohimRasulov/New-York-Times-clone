@@ -9,16 +9,16 @@ This clone version of the page may differ from original page since the original 
 • VS Code (Editor)
 
 ## Live Demo
-[Live Demo link] (https://ibrohimrasulov.github.io/New-York-Times-clone/)
+<a href="https://ibrohimrasulov.github.io/New-York-Times-clone/">Live Demo link</a>
 
 ## Getting Started
-First thing to do on the way of cloning this [page] (https://ibrohimrasulov.github.io/New-York-Times-clone/) is getting all library of pictures an icons. Than start to add all web page elements to html file. Second spet is sorting elements into semantic and non-semantic tags. Than you can start to style them. Don't forget to complete fixed navbar and footer first.
+First thing to do on the way of cloning this <a href="https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0">page</a> is getting all library of pictures an icons. Than start to add all web page elements to html file. Second spet is sorting elements into semantic and non-semantic tags. Than you can start to style them. Don't forget to complete fixed navbar and footer first.
 
 ## Author 👤
-• [GitHub] (https://github.com/IbrohimRasulov) <br>
-• [Twitter] (https://twitter.com/IbrohimRasu1ov) <br>
-• [LinkedIn] (https://www.linkedin.com/in/ibrohim-rasulov-a88352209/)
+• <a href="https://github.com/IbrohimRasulov">GitHub</a> <br>
+• <a href="https://twitter.com/IbrohimRasu1ov">Twitter</a> <br>
+• <a href="https://www.linkedin.com/in/ibrohim-rasulov-a88352209/">LinkedIn</a>
 
 ## Contributing 🤝
 Contributions, issues, and feature requests are welcome!
-Feel free to check this [link] (https://github.com/IbrohimRasulov/New-York-Times-clone/issues/2)
+Feel free to check this <a href="https://github.com/IbrohimRasulov/New-York-Times-clone/issues/2">link</a>
