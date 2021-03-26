@@ -6,10 +6,11 @@ This clone version of the page may differ from original page since the original 
 # Built With
 • Html & CSS <br>
 • Flexbox <br>
+• Grid <br>
 • Floating elements
 
 # Live Demo
-
+https://ibrohimrasulov.github.io/New-York-Times-clone/
 
 # Author 👤 
 
