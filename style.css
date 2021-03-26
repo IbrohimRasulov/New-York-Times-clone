@@ -80,6 +80,10 @@ button.icon-2 img {
   float: left;
 }
 
+.card img {
+  width: 100%;
+}
+
 #navbar a img {
   height: 45px;
   position: relative;
@@ -337,7 +341,7 @@ button.specialBtn:hover {
   float: right;
   position: relative;
   padding-top: 18px;
-  font-size: 12px
+  font-size: 12px;
 }
 
 #homePageText a {
@@ -414,10 +418,6 @@ ul li:first-child {
   display: inline-block;
   width: 32%;
   padding-right: 7px;
-}
-
-.card img {
-  width: 100%;
 }
 
 #line-margin {
