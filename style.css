@@ -172,19 +172,6 @@ button.icon-2 img {
   color: #999;
 }
 
-.advertisement {
-  background-color: #f8f8f8;
-  margin: 40px 0;
-}
-
-.advertisement p {
-  text-align: center;
-  font-size: 10px;
-  color: #ccc;
-  padding-top: 10px;
-  padding-bottom: 200px;
-}
-
 #box {
   border-top: 1px solid #ddd;
   margin-top: 50px;
@@ -194,11 +181,24 @@ button.icon-2 img {
   color: black;
   text-decoration: underline;
   font-family: sans-serif;
+  color: #326891;
+}
+
+.container-1 a:hover {
+  text-decoration: none;
 }
 
 .container-1 h4 h5 {
   font-family: sans-serif;
-  padding-top: 15px;
+  padding-top: 5px;
+}
+
+#text-center {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin: 30px 0;
 }
 
 #alignLeft {
@@ -231,6 +231,8 @@ button.specialBtn:hover {
   color: #333;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
+  padding-bottom: 10px;
+  line-height: 30px;
 }
 
 #alignLeft p {
