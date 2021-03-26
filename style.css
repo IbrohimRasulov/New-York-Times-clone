@@ -265,11 +265,11 @@ button.specialBtn:hover {
   color: #222;
 }
 
-.summaryColumn a:hover {
+li a:hover {
   text-decoration: underline;
 }
 
-li a:hover {
+.summaryColumn a:hover {
   text-decoration: underline;
 }
 
@@ -356,7 +356,7 @@ li a:hover {
 #homePageText {
   float: right;
   position: relative;
-  padding-top: 18px;
+  padding-top: 15px;
   font-size: 12px;
 }
 
@@ -414,6 +414,25 @@ ul li:first-child {
   font-weight: bolder;
 }
 
+#no-bold {
+  font-weight: normal;
+}
+
+#column-line {
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
+  font-size: 11px;
+
+}
+
+.menu-icon {
+  width: 15px;
+}
+
+#split-line {
+  margin: 5px 0;
+}
+
 /* Grid conatiner styling */
 
 #grid-container {
@@ -450,14 +469,10 @@ ul li:first-child {
   padding-bottom: 40px;
 }
 
-#line-with-margin {
+.line-with-margin {
   margin: 40px 0 20px 0;
 }
 
 .text-with-margin {
   margin-bottom: 15px;
-}
-
-#no-bold {
-  font-weight: normal;
 }
