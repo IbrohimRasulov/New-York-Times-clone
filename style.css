@@ -22,7 +22,11 @@ button {
   transition-timing-function: ease, ease;
 }
 
-/* Navbar style */
+ul {
+  list-style-type: none;
+}
+
+/* Fixed navbar styling*/
 
 #navbar {
   border-bottom: solid 1px #ddd;
@@ -66,6 +70,10 @@ button {
   margin-top: 20px;
 }
 
+.card img {
+  width: 100%;
+}
+
 button.icon-2 img {
   max-height: 25px;
 }
@@ -78,10 +86,6 @@ button.icon-2 img {
 #NewYorkTimes img {
   height: 40px;
   float: left;
-}
-
-.card img {
-  width: 100%;
 }
 
 #navbar a img {
@@ -109,7 +113,7 @@ button.icon-2 img {
   cursor: pointer;
 }
 
-/* Main article page styling */
+/* Main article and section pages styling */
 
 .container-1 {
   margin: 0 auto;
@@ -280,7 +284,7 @@ button.specialBtn:hover {
 }
 
 #leftMargin {
-  margin-left: 45px;
+  margin-left: 30px;
 }
 
 #conatainer {
@@ -309,6 +313,8 @@ button.specialBtn:hover {
   display: inline-block;
 }
 
+/* Fixed footer styling */
+
 #fixedFooter {
   position: fixed;
   bottom: 0;
@@ -332,6 +338,9 @@ button.specialBtn:hover {
   font-weight: lighter;
   padding-right: 317px;
 }
+
+/* Summary Menu styling */
+
 
 #summaryContainer {
   padding: 0 40px 40px 40px;
@@ -394,10 +403,16 @@ ul li:first-child {
   font-weight: bolder;
 }
 
+/* Grid conatiner styling */
+
 #grid-container {
   display: grid;
   grid-template-columns: repeat(32, 1fr);
   margin: 60px 0;
+}
+
+#grid-container a {
+  color: #333;
 }
 
 .big-grid-item {
@@ -405,6 +420,7 @@ ul li:first-child {
   grid-column-end: 23;
   border-top: 1px solid #222;
   padding-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .small-grid-iteam {
@@ -412,6 +428,9 @@ ul li:first-child {
   grid-column-end: 32;
   border-top: 1px solid #222;
   padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .card {
@@ -420,6 +439,26 @@ ul li:first-child {
   padding-right: 7px;
 }
 
+.card a:hover {
+  text-decoration: underline;
+}
+
 #line-margin {
   padding-bottom: 40px;
+}
+
+#line-with-margin {
+  margin: 40px 0 20px 0;
+}
+
+.text-with-margin {
+  margin-bottom: 15px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+#no-bold {
+  font-weight: normal;
 }
