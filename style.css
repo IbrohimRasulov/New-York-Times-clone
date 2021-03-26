@@ -178,10 +178,17 @@ button.icon-2 img {
 }
 
 .container-1 a {
-  color: black;
   text-decoration: underline;
   font-family: sans-serif;
   color: #326891;
+}
+
+.summaryColumn a {
+  color: #222;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 .container-1 a:hover {
@@ -261,14 +268,6 @@ button.specialBtn:hover {
   font-weight: 500;
   color: #666;
   margin: 25px 0;
-}
-
-.summaryColumn a {
-  color: #222;
-}
-
-li a:hover {
-  text-decoration: underline;
 }
 
 .summaryColumn a:hover {
