@@ -88,6 +88,15 @@ button.icon-2 img {
   float: left;
 }
 
+#editors-pic img {
+  float: left;
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
 #navbar a img {
   height: 45px;
   position: relative;
@@ -222,18 +231,34 @@ li a:hover {
   padding-top: 15px;
 }
 
-#editors-pic img {
-  float: left;
-  display: block;
-  width: 70px;
-  height: 70px;
-  margin-right: 10px;
-  margin-bottom: 20px;
+.summaryColumn a:hover {
+  text-decoration: underline;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
 
 #editors-pic a {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
+  color: #333;
+}
+
+#oldLink a {
+  text-decoration: underline;
+  color: #666;
+}
+
+#homePageText a {
+  color: #567b95;
+}
+
+#policy a {
+  color: #222;
+}
+
+#grid-container a {
   color: #333;
 }
 
@@ -301,19 +326,6 @@ button.specialBtn:hover {
   font-weight: 500;
   color: #666;
   margin: 25px 0;
-}
-
-.summaryColumn a:hover {
-  text-decoration: underline;
-}
-
-.card a:hover {
-  text-decoration: underline;
-}
-
-#oldLink a {
-  text-decoration: underline;
-  color: #666;
 }
 
 #lastButton {
@@ -394,10 +406,6 @@ button.specialBtn:hover {
   font-size: 12px;
 }
 
-#homePageText a {
-  color: #567b95;
-}
-
 #dualLine {
   border-top: 4px double #ddd;
 }
@@ -430,14 +438,6 @@ button.specialBtn:hover {
   font-size: 11px;
   font-weight: lighter;
   padding-right: 12.5px;
-}
-
-#policy a {
-  color: #222;
-}
-
-#grid-container a {
-  color: #333;
 }
 
 #policy a:hover {
