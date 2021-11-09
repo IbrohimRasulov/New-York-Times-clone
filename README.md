@@ -1,5 +1,6 @@
 # Clone of New York Times article page
-This clone version of the page may differ from original page since the original one is updated always
+
+> I cloned a web page of an article in New York Times site. This page has been built with the help of HTML and modern CSS3. This clone version of the page may differ from original page since the original one is updated always. Check the live demo to try.
 
 ## Built With
 • Html & CSS <br>
